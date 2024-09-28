@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+.website-section-container{
+    background-image: linear-gradient(to right,white,black);
+}
 #nav-item1{
     color:  #323f4b;
     font-family: roboto;
@@ -66,7 +69,7 @@
     font-weight: 700;
 }
 .paragraph{
-    color: #5a7184;
+    color: white;
     font-family: "Roboto";
     font-size: 16px;
 }
@@ -103,13 +106,13 @@
     border-radius: 20px;
 }
 .lik-stle{
-    color: #d0b200;
+    color: black;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 }
 .explore-card-title{
-    color: #323f4b;
+    color: white;
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 500;
@@ -120,13 +123,14 @@
 }
 .delivery-image{
     width: 300px;
+    border-radius: 35px;
 }
 .delivery-head{
     font-size: 28px;
     font-weight: bold;
 }
 .delivery-para{
-    color: gray;
+    color: white;
 }
 .delivery-button{
     color: white;
@@ -145,7 +149,7 @@
 .gift-heading{
     font-size: 28px;
     font-family: roboto;
-    color: darkblue;
+    color: black;
     font-weight: 600;
 }
 .gift-image{
@@ -154,12 +158,15 @@
 }
 .gift-button{
     color: white;
-    background-color: #d0b200;
+    background-image: linear-gradient(#d0b200, #a58d00);
     width: 130px;
     height: 45px;
     border-width: 0;
     border-radius: 8px;
     margin-right: 10px;
+}
+.gift-para{
+    color: white;
 }
 .follow-section-heading{
     font-size: 28px;
@@ -188,11 +195,37 @@
 .footer-section-mail-id{
     font-family: roboto;
     font-size: 16px;
-    color:  #959ead;
+    color:  white;
     margin-top: 18px;
 }
 .footer-section-address{
     font-family: roboto;
-    color:  #959ead;
+    color:  white;
     font-size: 14px;
+}
+.gift-vouch-head{
+    color: #d0b200;
+    font-weight: 700;
+}
+.gift-container-last{
+    background-image: linear-gradient(to right,white,black);
+}
+.wcu-container-color{
+    background-image: linear-gradient(to right,white,black);
+}
+.explore-section-container{
+    background-image: linear-gradient(to right,white,black);
+}
+.delivery-container{
+    background-image: linear-gradient(to right,white,black);
+}
+.follow-section-container {
+    background-image: linear-gradient(to right,white,black);
+}
+.footer-section-container{
+    background-image: linear-gradient(to right,white,black);
+
+}
+.h-line{
+    border-width: 3px;
 }
